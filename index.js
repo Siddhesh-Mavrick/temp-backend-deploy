@@ -28,7 +28,7 @@ app.use(cors({
 const port = process.env.PORT || 6900
 
 app.get("/", (req, res) => {
-    res.send("Hello World!")
+    res.send("Hello World! 🤠")
 });
 
 // ---- APIS -------
